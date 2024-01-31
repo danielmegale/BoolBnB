@@ -1,0 +1,163 @@
+@media screen and (min-width: 576) {
+  .featured .wrapper-featured-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .search-bar .form-control {
+    height: 100%;
+  }
+
+  a #go-up {
+    bottom: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .featured .wrapper-featured-cards {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 500px;
+  }
+
+  .form-control {
+    font-size: 1rem;
+    height: 45px;
+  }
+
+  .home-title {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
+
+  .open-offcanvas {
+    height: 45px;
+  }
+
+  header .user-icon {
+    display: none;
+  }
+
+  header .action-button-group .log-button {
+    display: flex;
+    gap: 10px;
+  }
+
+  .wrapper-city {
+    .city.card:nth-child(2),
+    .city.card:nth-child(3),
+    .city.card:nth-child(6) {
+      width: calc(100% / 3 - 40px);
+    }
+    .city.card:nth-child(1),
+    .city.card:nth-child(4),
+    .city.card:nth-child(5) {
+      width: calc(100% / 2 - 40px);
+    }
+  }
+
+  #go-up {
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .container-xxl .col-12 #map {
+    display: block;
+    height: 500px;
+    width: 100%;
+  }
+
+  .container-xxl .col-12.search-result {
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .container-xxl .wrapper-result div.search-bar-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  section .jumbotron {
+    height: 900px;
+    .search-bar {
+      width: 800px;
+
+      .fa-magnifying-glass-location {
+        font-size: 2rem;
+      }
+    }
+
+    .form-control {
+      height: 50px;
+    }
+
+    .form-control {
+      font-size: 1rem;
+    }
+
+    .home-title {
+      margin: 150px 0;
+
+      h1 {
+        font-size: 6rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .container-xxl .wrapper-result {
+    .filter {
+      display: block;
+    }
+  }
+
+  main .travel {
+    .row {
+      flex-direction: row;
+    }
+  }
+
+  .open-offcanvas {
+    display: none;
+  }
+
+  .container.house-detail {
+    .col-xl-4 {
+      display: block;
+    }
+  }
+  .reservation {
+    display: none;
+  }
+
+  .wrapper-city {
+    .city.card:nth-child(2),
+    .city.card:nth-child(3),
+    .city.card:nth-child(6) {
+      width: calc(100% / 3 - 40px);
+    }
+    .city.card:nth-child(1),
+    .city.card:nth-child(4),
+    .city.card:nth-child(5) {
+      width: calc(100% / 2 - 40px);
+    }
+  }
+
+  .container-xxl .col-12.search-result {
+    justify-content: start;
+    margin-bottom: 50px;
+  }
+}
